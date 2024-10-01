@@ -110,18 +110,39 @@ h1 {
 
 /* Event Location Block */
 
-#location {
+.location {
   max-height: 25vh;
   max-width: 100%;
   position: relative;
   background-color: rgb(0, 255, 157);
-  border: 1px solid rgb(0, 0, 0);
+  border: 0px solid rgb(0, 0, 0);
+  font-size: calc(0.8vw + 0.8vh);
+}
+
+.location-pin {
+  float:left;
+  width: 5%;
+  font-size: calc(1vw + 1vh);
+  overflow: auto;
+  background-color: rgb(16, 103, 5);
+  text-align: center;
+  margin-top: 3%;
+}
+
+.location-text {
+  float: right;
+  width: 95%;
+  font-size: calc(0.8vw + 0.8vh);
+  overflow: auto;
+  background-color: rgb(16, 103, 5);
 }
 
 h2 {
   font-size: calc(0.8vw + 0.8vh);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 
 
